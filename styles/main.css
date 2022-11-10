@@ -1,0 +1,48 @@
+
+.container{
+    margin-top: 10px;
+    width: 400px;
+    height: 270px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.img{
+    border-radius: 20px;
+}
+
+
+.swiper-slide img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: wheat;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: brown;
+}
+
+.body-layout{
+
+}
+
+.body-layout .about_me{
+    display: inline-block;
+    letter-spacing: normal;
+    margin-top: 0;
+    vertical-align: top;
+}
+/* @media screen and (min-width: 601px) {
+    .body-layout {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body-layout .about_me {
+      width: auto;
+    }
+  } */

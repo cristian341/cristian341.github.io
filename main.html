@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ben Choy Pianist</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/keyboard.png">
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/layout.css" type="text/css">
+        <link rel="stylesheet" href="styles/main.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+    </head>
+    <body>
+        <nav class="navigation">
+            <div class="navigation-left-section">
+                <a href="main.html"><img src="images/logo_key.png" id="logo_keyboard" alt="keyboad_logo"></a>
+            </div>
+            <div id="navigation-right-section">
+                <a id="navigation-blog" href="blog.html"><span class="option-blog">Blog</span></a>
+                <a id="navigation-about" href="about.html"><span class="option-about">About us</span></a>
+                <select class="navigation-select" onchange="location = this.value;">
+                    <option disabled selected hidden value="main.html"><span id="option-event">Event</span></option>
+                    <option value="./party.html"><span id=option-party>Party</span></option>
+                    <option value="./corporate.html"><span id="option-corporate">Corporate</span></option>
+                    <option value="./wedding.html"><span id="option-wedding">Wedding</span></option>
+                </select>
+                <a class="" href="contact.html"><span class="">Contact Us</span></a>
+                <a class="social_media_links" href="https://www.youtube.com/channel/UCkjlNu3hy20AAdfWMapa5SA" target="_blank"><img src="images/youtube.png"></a>
+                <a class="social_media_links" href="https://www.instagram.com/benchoypianist/" target="_blank"><img src="images/instagram.png"></a>
+            </div>
+        </nav>
+        <div class="body-layout">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/piano_wedding.jpeg" alt="piano_portret"></div>
+                        <div class="swiper-slide"><img src="images/ben_single.jpeg" alt="ben piano wedding"></div>
+
+                        <div class="swiper-slide"><img src="images/picture_with_customers.jpeg" alt="piano"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInterraction: false,
+                    },
+                    loop: true,
+                
+                    // If we need pagination
+                    pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    },
+                
+                    // Navigation arrows
+                    navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                    },
+                
+                });
+            </script>
+            <div class="about_me">
+                <p>Ranking amongst the UK’s most-booked pianists, Michael Raggatt is in demand across world-renowned venues in his home city of London, as well as travelling nationally and internationally to perform. He has brought his touch of unique and refined elegance to events at Savoy Hotel, the FA Cup Final, Dubai's famous 'Palm Island’ and more, as well as drawing on many years of experience to create exceptional tailored wedding programmes. 
+
+    
+
+                    Michael is highly accomplished in styles ranging from light classical music, such as Debussy and Chopin, to well-loved jazz standards and modern chart hits, and can accommodate requests in almost any genre. His care and attention to detail at each event has earned him five stars in 100% of his reviews.
+                    
+                    ​
+                    
+                    "Michael recently played at our wedding church service and was absolutely amazing! He listened to exactly what I wanted and completely blew us all away!!"
+                    
+                    ​
+                    
+                    Michael was shortlisted for the UK Wedding Awards 2020 under the 'Best Wedding Musical Act' in recognition of all the great wedding experiences he's performed at the last few years. </p>
+            </div>
+        </div>
+
+
+        <footer >
+            <p id="footer">&copy; 2022 <a href="https://github.com/cristian341" id="footer-link" target="_blank">Cristian Munteanu</a> All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+.body{
+
+    border: 0px;
+
+    background-color: black;
+
+    background-image: url("background_img.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 100vh;
+
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+/* #navigation-left-section{
+
+} */
+
+#logo_keyboard{
+    width: 36px;
+    border-radius: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.social_media_links img{
+    width: 36px;
+    border-radius: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#navigation-right-section span{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: oblique;
+    color:rgb(128, 226, 216)
+}
+
+.navigation-select{
+    margin-right: 20px;
+    /* background-color: rgb(128, 226, 216); */
+    text-align: center;
+    font-family: sans-serif;
+    font-style: oblique;
+    border-radius: 10px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+#footer{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+#footer-link{
+    color: black;
+}
+#footer-link:hover{
+    color: rgb(249, 161, 161);
+}
+
+#navigation-blog{
+    margin-right: 20px;
+}
+#navigation-about{
+    margin-right: 20px;
+}
+/* #option-blog{
+
+}
+#option-about{
+    
+}
+#option-event{
+
+}
+#option-party{
+
+}
+#option-corporate{
+
+} */
+#option-wedding{
+    text-decoration: dotted;
+}
+.background_image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    z-index: 0;
+    position: absolute;
+}
+
+
+
