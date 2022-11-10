@@ -2,14 +2,16 @@
 .container{
     margin-top: 10px;
     width: 400px;
-    height: 270px;
-    display: inline-block;
-    align-items: center;
+    height: 300px;
     border-radius: 20px;
-
+    margin-bottom: 20px;
 }
 .img{
     border-radius: 20px;
+    margin-top: 10px;
+    width: 400px;
+    height: 270px;
+    align-items: center;
 }
 
 
@@ -26,23 +28,29 @@
 }
 
 .body-layout{
+    display: flex;
+    align-items: center;
 
 }
 
-.body-layout .about_me{
-    display: inline-block;
+.about_me h1{
+    text-align: center;
+    cursor: pointer;
+}
+.body-layout .about_me p{
     letter-spacing: normal;
     margin-top: 0;
     vertical-align: top;
-}
-/* @media screen and (min-width: 601px) {
-    .body-layout {
-        width: auto;
-    }
+    cursor: pointer;
+    margin-left: 20px;
+ 
 }
 
-@media screen and (max-width: 600px) {
-    .body-layout .about_me {
-      width: auto;
-    }
-  } */
+.youtube_videos iframe{
+ 
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    width: 600px; 
+    height: 400px;
+}
