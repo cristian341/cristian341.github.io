@@ -1,0 +1,87 @@
+
+
+.body_layout{
+    
+} 
+ 
+.review_container{
+    display: block;
+}
+
+.review_1{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.review_2{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.review_1 img{
+    border-radius: 20px 40%;
+    border-color: aqua;
+    border-width: 5px;
+    border-style: groove;
+}
+.review_2 img{
+    border-radius: 40% 20px;
+    border-color: aqua;
+    border-width: 5px;
+    border-style: groove;
+}
+.review_text_1 h1, .review_2 h1{
+    text-align: center;
+    cursor: pointer;
+
+}
+.review_text_1 p{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.review_text_2 p{
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px){
+    .review_1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .review_1 img{
+        width: 100vw;
+        flex-direction: inherit;
+
+    }
+    .review_text_1{
+        width: 100vw;
+        flex-direction: inherit;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        
+    }
+    .review_2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .review_2 img{
+        width: 100vw;
+        flex-direction: inherit;
+
+    }
+    .review_text_2{
+        width: 100vw;
+        flex-direction: inherit;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+        
+    }
+    
+    
+}

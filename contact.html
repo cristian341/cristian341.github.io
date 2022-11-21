@@ -7,10 +7,18 @@
         <meta name="viewpoint" content="initial-scale-1, width=device-width">
         <meta name=viewpoint content="width=700">
         <link rel="stylesheet" href="styles/layout.css" type="text/css">
-        <link rel="stylesheet" href="styles/main.css" type="text/css">
-    
+        <link rel="stylesheet" href="styles/contact.css" type="text/css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script src="script/contact.js" defer></script>
+        <script>
+            function inform(){
+                alert("The email has been sent.");
+            };
+        </script>
+
     </head>
     <body>
+        <!--Navigation Bar-->
         <nav class="navigation">
             <div class="navigation-left-section">
                 <a href="main.html"><img src="images/logo_key.png" id="logo_keyboard" alt="keyboad_logo"></a>
@@ -29,10 +37,87 @@
                 <a class="social_media_links" href="https://www.instagram.com/benchoypianist/" target="_blank"><img src="images/instagram.png"></a>
             </div>
         </nav>
+        <div class="details">
+            <h1>Ben would love to hear from you</h1>
+            <p id="contact_bio">
+                You are very welcome to reach out to me directly via:<br>
+                Email: ben_choy_pianist@yahoo.com<br>
+                Telephone: +44 7557 030184<br>
+                Or if easier, feel free to send a message via:<br>
+            </p>
+        </div>
+        <div class="body_layout">
+            <!--Contact Form-->
+            <div class="contact_info">
+                <h1>Contact form</h1>
+                <form name="myForm" action="main.html" onsubmit="return validateForm()" method="post">
+                   <table class="form-style">
+                      <tr>
+                         <td>
+                            <label>
+                               Your name <span class="required">*</span>
+                            </label>
+                         </td>
+                         <td>
+                            <input type="text" name="name" class="long"/>
+                            <span class="error" id="errorname"></span>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td>
+                            <label>
+                              Your email address <span class="required">*</span>
+                            </label>
+                         </td>
+                         <td>
+                            <input type="email" name="email" class="long"/>
+                            <span class="error" id="erroremail"></span>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td>
+                            <label>
+                               Message <span class="required">*</span>
+                            </label>
+                         </td>
+                         <td>
+                            <textarea name="message" class="long field-textarea"></textarea>
+                            <span class="error" id="errormsg"></span>
+                         </td>
+                      </tr>
+                      <tr>
+                         <td></td>
+                         <td>
+                            <input type="submit" value="Send">      
+                         </td>
+                      </tr>
+                   </table>
+                </form>
+            </div>
+            <!--Map Section-->
+            <div></div>
+            <div id="map" class="map">
+                <script class="map_js">
+                    function initMap(){
+                        let location = {lat: 52.52108240866577, lng: -1.950812468140238};
+                        let map = new google.maps.Map(document.getElementById("map"),{
+                            zoom: 10,
+                            center: location
+                        });
+                        let marker = new google.maps.Marker({
+                            position: location,
+                            map: map
+                        });
+                    }
+                </script>
+            </div>
+            <script async  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIWGoZnrKPzfQKzmwNx4O9_1dZ1MTmxa4&callback=initMap"></script>
+        </div>
+        <!--Footer Section-->
         <footer class="footer">
             <p id="header">Tailored to what you love</p>
-            <p>Performances are customised to meet to your specific requests, timings and arrangements. Ben would love to hear about your ideas and would welcome you to <a class="footer-link" href="./contact.html" target="_blank">to contact Ben</a> for a free personalised, no obligation quote.</p>
-            <img src="images/footer_img.webp">
+            <p id="footer_contact">Performances are customised to meet to your specific requests, timings and arrangements. Ben would love to hear about your ideas and would welcome you to <a class="footer-link" href="./contact.html" target="_blank">to contact Ben</a> for a free personalised, no obligation quote.</p>
+            <img src="images/footer_img.webp" alt="footer_image">
             <p id="footer_image">&copy; 2022 <a href="https://github.com/cristian341" class="footer-link" target="_blank">Cristian Munteanu</a> All Rights Reserved.</p>
         </footer>
     </body>
