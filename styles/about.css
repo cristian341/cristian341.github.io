@@ -6,29 +6,78 @@
     flex-direction: row;
     height: auto;
 }
+
 #ben_picture{
-    width: 200px;
+    width: 300px;
     height: auto;
     border-radius: 20px;
     border-width: 3px;
     border-color: aqua;
     border-style:solid;
+    
 }
-.ben_bio p{
+.ben_bio_info p{
     margin-left: 20px;
 }
-.ben_video{
-
-}
-.music_list{
-
-}
-.music_list h1{
-    justify-content: center;
-}
-.music_list p{
+.ben_bio_info h1{
     text-align: center;
 }
-#music_list_selector{
-    width: 200px;
+
+.music_list{
+    display: block;
+}
+.music_list h1{
+    text-align: center;
+
+}
+
+
+
+.info_example {
+   display:  inline-block;
+   width: 100vw;
+
+}
+
+.info_p{
+    float: left;
+    display: inline;
+    width: 60vw;
+}
+.info_p #music_list_selector{
+    width: 100px;
+}
+
+.ben_video{
+    float: right;
+    display: inline;
+    width: 40vw;
+    height: 45vh;
+    border-radius: 20px ;
+    
+
+}
+
+@media only screen and (max-width: 600px){
+    .ben_bio{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #ben_picture{
+        width: 100vw;
+        height: auto;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: aqua;
+        border-style:solid;
+        
+    }
+    .ben_bio_info p{
+        margin-left: 20px;
+    }
+    .ben_bio_info h1{
+        text-align: center;
+    }
+ 
 }

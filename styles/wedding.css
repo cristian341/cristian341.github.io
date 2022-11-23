@@ -1,0 +1,61 @@
+
+.intro{
+    display: block;
+
+}
+
+.intro h1{
+    text-align: center;
+}
+
+.intro article{
+    text-align: center;
+}
+
+.services{
+    display: inline-block;
+    /* flex-direction: row; */
+    justify-content: stretch;
+
+}
+
+
+#h1_services{
+    text-align: center;
+}
+
+.service{
+    margin: 0;
+    display: inline-block;
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.service_img{
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+.service h4{
+    margin: 0;
+    text-align: center;
+}
+.service article{
+    margin-top: 10px;
+    justify-content: center;
+}
+.combo{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+ol{
+    display: inline-block;
+    text-align: middle;
+    width: 400px;
+}
+
+
+
+

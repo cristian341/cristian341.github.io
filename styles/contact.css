@@ -13,7 +13,6 @@
 #map{
     flex: 2;
     border-radius: 20px;
-
     height: 400px;
 }
 
@@ -91,7 +90,9 @@ textarea{
 }
 
 @media (max-width: 600px){
-    .body_layout{}
+    .body_layout{
+        display: block;
+    }
     .contact_info{
         display: block;
         justify-content: center;
