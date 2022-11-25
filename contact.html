@@ -26,12 +26,7 @@
             <div id="navigation-right-section">
                 <a id="navigation-blog" href="blog.html"><span class="option-blog">Blog</span></a>
                 <a id="navigation-about" href="about.html"><span class="option-about">About us</span></a>
-                <select class="navigation-select" onchange="location = this.value;">
-                    <option disabled selected hidden value="main.html"><span id="option-event">Event</span></option>
-                    <option value="./party.html"><span id=option-party>Party</span></option>
-                    <option value="./corporate.html"><span id="option-corporate">Corporate</span></option>
-                    <option value="./wedding.html"><span id="option-wedding">Wedding</span></option>
-                </select>
+                <a id="navigation-wedding" href="wedding.html"><span class="option-wedding">Wedding</span></a>
                 <a class="" href="contact.html"><span class="">Contact Us</span></a>
                 <a class="social_media_links" href="https://www.youtube.com/channel/UCkjlNu3hy20AAdfWMapa5SA" target="_blank"><img src="images/youtube.png"></a>
                 <a class="social_media_links" href="https://www.instagram.com/benchoypianist/" target="_blank"><img src="images/instagram.png"></a>
@@ -59,7 +54,7 @@
                             </label>
                          </td>
                          <td>
-                            <input type="text" name="name" class="long"/>
+                            <input type="text" name="name" class="long" placeholder="Name & Surname"/>
                             <span class="error" id="errorname"></span>
                          </td>
                       </tr>
@@ -70,7 +65,7 @@
                             </label>
                          </td>
                          <td>
-                            <input type="email" name="email" class="long"/>
+                            <input type="email" name="email" class="long" placeholder="Email Address"/>
                             <span class="error" id="erroremail"></span>
                          </td>
                       </tr>
@@ -81,7 +76,7 @@
                             </label>
                          </td>
                          <td>
-                            <textarea name="message" class="long field-textarea"></textarea>
+                            <textarea name="message" class="long field-textarea" placeholder="Your message"></textarea>
                             <span class="error" id="errormsg"></span>
                          </td>
                       </tr>

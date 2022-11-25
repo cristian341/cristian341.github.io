@@ -8,12 +8,14 @@
 }
 .contact_info{
     flex: 1;
+    vertical-align: baseline;
 }
 
 #map{
     flex: 2;
     border-radius: 20px;
-    height: 400px;
+    height: 420px;
+    vertical-align: baseline;
 }
 
 h1{

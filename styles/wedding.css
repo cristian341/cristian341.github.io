@@ -13,9 +13,9 @@
 }
 
 .services{
-    display: inline-block;
+    display: flex;
     /* flex-direction: row; */
-    justify-content: stretch;
+    justify-content: space-around;
 
 }
 
@@ -56,6 +56,21 @@ ol{
     width: 400px;
 }
 
+@media only screen and (max-width: 600px){
+    .services{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .service{
+        align-items: baseline;
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-
-
+}

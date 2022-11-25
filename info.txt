@@ -6,3 +6,9 @@ some information about yourself
 ben choy
 classical jaz contemporate
 key=AIzaSyDIWGoZnrKPzfQKzmwNx4O9_1dZ1MTmxa4
+                <!-- <select class="navigation-select" onchange="location = this.value;">
+                    <option disabled selected hidden value="main.html"><span id="option-event">Event</span></option>
+                    <option value="./party.html"><span id=option-party>Party</span></option>
+                    <option value="./corporate.html"><span id="option-corporate">Corporate</span></option>
+                    <option value="./wedding.html"><span id="option-wedding">Wedding</span></option>
+                </select> -->

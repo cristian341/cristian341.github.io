@@ -9,14 +9,19 @@
 }
 
 .review_1{
+    background-color:rgb(133, 194, 255);
     display: flex;
     flex-direction: row;
     height: auto;
+    border-radius: 20px;
 }
 .review_2{
+    margin-top: 10px;
+    background-color:rgb(247, 201, 201);
     display: flex;
     flex-direction: row;
     height: auto;
+    border-radius: 20px;
 }
 .review_1 img{
     border-radius: 20px 40%;
@@ -38,10 +43,14 @@
 .review_text_1 p{
     margin-left: 20px;
     cursor: pointer;
+    color: rgb(247, 201, 201);
+    font-size: 18px;
 }
 .review_text_2 p{
     margin-right: 20px;
     cursor: pointer;
+    color: rgb(110, 179, 248);
+    font-size: 18px;
 
 }
 
@@ -52,7 +61,7 @@
         height: auto;
     }
     .review_1 img{
-        width: 100vw;
+        width: 80vw;
         flex-direction: inherit;
 
     }
@@ -70,7 +79,7 @@
         height: auto;
     }
     .review_2 img{
-        width: 100vw;
+        width: 80vw;
         flex-direction: inherit;
 
     }

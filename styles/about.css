@@ -1,5 +1,5 @@
 .body_layout{
-
+    width: 100%;
 }
 .ben_bio{
     display: flex;
@@ -44,8 +44,17 @@
     display: inline;
     width: 60vw;
 }
+.info_p p{
+    margin-right: 10px;
+    justify-content: center;
+    text-align: justify;
+    
+}
 .info_p #music_list_selector{
     width: 100px;
+    text-align: middle;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ben_video{
@@ -57,27 +66,50 @@
     
 
 }
+.selector{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 @media only screen and (max-width: 600px){
-    .ben_bio{
-        display: flex;
-        flex-direction: column;
-        height: auto;
+    .ben_bio {
+        width: 100;
+        display: block;
+        justify-content: center;
     }
-    #ben_picture{
-        width: 100vw;
-        height: auto;
-        border-radius: 20px;
-        border-width: 3px;
-        border-color: aqua;
-        border-style:solid;
+    #ben_picture {
+        display: block;
+        width: 100%;
+    }
+    .ben_bio_info{
+        display: block;
+    }
+
+    .info_example{
+        display: block;
+        width: 100%;
+    }
+    .info_p{
+        display: block;
+        width: 100%;
         
     }
-    .ben_bio_info p{
-        margin-left: 20px;
+    .ben_video{
+        display: block;
+        width: 100%;
     }
-    .ben_bio_info h1{
-        text-align: center;
+
+ 
+}
+@media only screen and (min-width: 600px) and (max-width: 1400px){
+
+    #ben_picture {
+        height: 60%;
+        vertical-align: baseline;
+
     }
+
+
  
 }

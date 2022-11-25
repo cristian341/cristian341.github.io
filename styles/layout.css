@@ -2,7 +2,10 @@ body{
     background-color:rgb(249, 243, 235);
 
 }
-
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
 
 .navigation{
     display: flex;
@@ -12,13 +15,11 @@ body{
     align-items: center;
     font-family: sans-serif;
     font-style: oblique;
+    margin-bottom: 10px;
 }
-/* #navigation-left-section{
-
-} */
 
 #logo_keyboard{
-    width: 36px;
+    width: 40px;
     border-radius: 20px;
     margin-left: 10px;
     vertical-align: middle;
@@ -34,7 +35,8 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-style: oblique;
-    color:rgb(128, 226, 216)
+    font-size: 20px;
+    color:rgb(33, 146, 135)
 }
 
 .navigation-select{
@@ -75,24 +77,11 @@ a{
 #navigation-about{
     margin-right: 20px;
 }
-/* #option-blog{
+#navigation-wedding{
+    margin-right: 20px;
+}
 
-}
-#option-about{
-    
-}
-#option-event{
 
-}
-#option-party{
-
-}
-#option-corporate{
-
-} */
-#option-wedding{
-    text-decoration: dotted;
-}
 .footer #header{
     font-weight: bold;
     font-size: large;
