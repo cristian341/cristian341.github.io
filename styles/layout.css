@@ -104,9 +104,47 @@ a{
 
 @media screen and (max-width: 600px){
     .footer #footer_contact{
-        font-size: 16px;
+        font-size: 14px;
     }
     .footer #header{
         font-size: 16px;
     }
+    .navigation{
+        height: 60px;
+    }
+    
+    #logo_keyboard{
+        width: 20px;
+        border-radius: 20px;
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+    .social_media_links img{
+        width: 34px;
+        border-radius: 20px;
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+    
+    #navigation-right-section span{
+        text-align: center;
+        font-family: sans-serif;
+        font-style: oblique;
+        font-size: 20px;
+        color:rgb(33, 146, 135)
+    }
+    
+    .navigation-select{
+        margin-right: 20px;
+        /* background-color: rgb(128, 226, 216); */
+        text-align: center;
+        font-family: sans-serif;
+        font-style: oblique;
+        border-radius: 10px 4px;
+        font-size: 16px;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: black;
+    }
+    
 }

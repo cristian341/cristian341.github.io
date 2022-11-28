@@ -34,6 +34,7 @@
     border-color: aqua;
     border-width: 5px;
     border-style: groove;
+    
 }
 .review_text_1 h1, .review_2 h1{
     text-align: center;
@@ -42,13 +43,13 @@
 }
 .review_text_1 p{
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     cursor: pointer;
     color: rgb(247, 201, 201);
     font-size: 18px;
 }
 .review_text_2 p{
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: 10px;
     cursor: pointer;
     color: rgb(110, 179, 248);
