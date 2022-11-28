@@ -41,13 +41,15 @@
 
 }
 .review_text_1 p{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
     color: rgb(247, 201, 201);
     font-size: 18px;
 }
 .review_text_2 p{
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     cursor: pointer;
     color: rgb(110, 179, 248);
     font-size: 18px;
